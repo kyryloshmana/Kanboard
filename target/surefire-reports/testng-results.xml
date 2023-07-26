@@ -2,172 +2,172 @@
 <testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-25T17:41:34 EEST" name="Regression test" finished-at="2023-07-25T17:42:19 EEST" duration-ms="45365">
+  <suite started-at="2023-07-26T19:15:42 EEST" name="Regression test" finished-at="2023-07-26T19:16:33 EEST" duration-ms="51623">
     <groups>
     </groups>
-    <test started-at="2023-07-25T17:41:34 EEST" name="Regression" finished-at="2023-07-25T17:42:19 EEST" duration-ms="45365">
+    <test started-at="2023-07-26T19:15:42 EEST" name="Regression" finished-at="2023-07-26T19:16:33 EEST" duration-ms="51623">
       <class name="API.tests.DeleteUserTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:API.tests.DeleteUserTest@69a2b3b6]" started-at="2023-07-25T17:41:38 EEST" name="setUp" finished-at="2023-07-25T17:41:38 EEST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:API.tests.DeleteUserTest@61f39bb]" started-at="2023-07-26T19:15:46 EEST" name="setUp" finished-at="2023-07-26T19:15:46 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="deleteUserTest()[pri:0, instance:API.tests.DeleteUserTest@69a2b3b6]" started-at="2023-07-25T17:41:38 EEST" name="deleteUserTest" finished-at="2023-07-25T17:41:39 EEST" duration-ms="528" status="PASS">
+        <test-method signature="deleteUserTest()[pri:0, instance:API.tests.DeleteUserTest@61f39bb]" started-at="2023-07-26T19:15:46 EEST" name="deleteUserTest" finished-at="2023-07-26T19:15:46 EEST" duration-ms="346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUserTest -->
       </class> <!-- API.tests.DeleteUserTest -->
       <class name="COMBINED.TaskTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:COMBINED.TaskTest@62d73ead]" started-at="2023-07-25T17:41:42 EEST" name="setUp" finished-at="2023-07-25T17:41:47 EEST" duration-ms="4896" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:COMBINED.TaskTest@53a665ad]" started-at="2023-07-26T19:15:49 EEST" name="setUp" finished-at="2023-07-26T19:15:56 EEST" duration-ms="6290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="AddCommentToTaskValidData()[pri:0, instance:COMBINED.TaskTest@62d73ead]" started-at="2023-07-25T17:41:47 EEST" name="AddCommentToTaskValidData" finished-at="2023-07-25T17:41:53 EEST" duration-ms="5751" status="PASS">
+        <test-method signature="AddCommentToTaskValidData()[pri:0, instance:COMBINED.TaskTest@53a665ad]" started-at="2023-07-26T19:15:56 EEST" name="AddCommentToTaskValidData" finished-at="2023-07-26T19:15:59 EEST" duration-ms="3079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddCommentToTaskValidData -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:COMBINED.TaskTest@62d73ead]" started-at="2023-07-25T17:41:53 EEST" name="quit" finished-at="2023-07-25T17:41:54 EEST" duration-ms="567" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:COMBINED.TaskTest@53a665ad]" started-at="2023-07-26T19:15:59 EEST" name="quit" finished-at="2023-07-26T19:15:59 EEST" duration-ms="729" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:COMBINED.TaskTest@62d73ead]" started-at="2023-07-25T17:41:54 EEST" name="setUp" finished-at="2023-07-25T17:41:56 EEST" duration-ms="1882" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:COMBINED.TaskTest@53a665ad]" started-at="2023-07-26T19:15:59 EEST" name="setUp" finished-at="2023-07-26T19:16:03 EEST" duration-ms="4023" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="closeTaskValidData()[pri:0, instance:COMBINED.TaskTest@62d73ead]" started-at="2023-07-25T17:41:56 EEST" name="closeTaskValidData" finished-at="2023-07-25T17:42:00 EEST" duration-ms="4316" status="PASS">
+        <test-method signature="closeTaskValidData()[pri:0, instance:COMBINED.TaskTest@53a665ad]" started-at="2023-07-26T19:16:03 EEST" name="closeTaskValidData" finished-at="2023-07-26T19:16:08 EEST" duration-ms="4940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTaskValidData -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:COMBINED.TaskTest@62d73ead]" started-at="2023-07-25T17:42:00 EEST" name="quit" finished-at="2023-07-25T17:42:00 EEST" duration-ms="553" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:COMBINED.TaskTest@53a665ad]" started-at="2023-07-26T19:16:08 EEST" name="quit" finished-at="2023-07-26T19:16:09 EEST" duration-ms="742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:COMBINED.TaskTest@62d73ead]" started-at="2023-07-25T17:42:00 EEST" name="setUp" finished-at="2023-07-25T17:42:03 EEST" duration-ms="2053" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:COMBINED.TaskTest@53a665ad]" started-at="2023-07-26T19:16:09 EEST" name="setUp" finished-at="2023-07-26T19:16:12 EEST" duration-ms="2907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createTaskValidData()[pri:0, instance:COMBINED.TaskTest@62d73ead]" started-at="2023-07-25T17:42:03 EEST" name="createTaskValidData" finished-at="2023-07-25T17:42:04 EEST" duration-ms="1667" status="PASS">
+        <test-method signature="createTaskValidData()[pri:0, instance:COMBINED.TaskTest@53a665ad]" started-at="2023-07-26T19:16:12 EEST" name="createTaskValidData" finished-at="2023-07-26T19:16:15 EEST" duration-ms="2564" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTaskValidData -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:COMBINED.TaskTest@62d73ead]" started-at="2023-07-25T17:42:04 EEST" name="quit" finished-at="2023-07-25T17:42:05 EEST" duration-ms="391" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:COMBINED.TaskTest@53a665ad]" started-at="2023-07-26T19:16:15 EEST" name="quit" finished-at="2023-07-26T19:16:15 EEST" duration-ms="517" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- COMBINED.TaskTest -->
       <class name="UI.tests.LogInTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:UI.tests.LogInTest@15dc339f]" started-at="2023-07-25T17:42:11 EEST" name="setUp" finished-at="2023-07-25T17:42:13 EEST" duration-ms="1543" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:UI.tests.LogInTest@79316f3a]" started-at="2023-07-26T19:16:22 EEST" name="setUp" finished-at="2023-07-26T19:16:25 EEST" duration-ms="2923" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginWithCorrectCredentialAdmin()[pri:0, instance:UI.tests.LogInTest@15dc339f]" started-at="2023-07-25T17:42:13 EEST" name="loginWithCorrectCredentialAdmin" finished-at="2023-07-25T17:42:13 EEST" duration-ms="604" status="PASS">
+        <test-method signature="loginWithCorrectCredentialAdmin()[pri:0, instance:UI.tests.LogInTest@79316f3a]" started-at="2023-07-26T19:16:25 EEST" name="loginWithCorrectCredentialAdmin" finished-at="2023-07-26T19:16:26 EEST" duration-ms="844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithCorrectCredentialAdmin -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:UI.tests.LogInTest@15dc339f]" started-at="2023-07-25T17:42:13 EEST" name="quit" finished-at="2023-07-25T17:42:14 EEST" duration-ms="331" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:UI.tests.LogInTest@79316f3a]" started-at="2023-07-26T19:16:26 EEST" name="quit" finished-at="2023-07-26T19:16:26 EEST" duration-ms="390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:UI.tests.LogInTest@15dc339f]" started-at="2023-07-25T17:42:14 EEST" name="setUp" finished-at="2023-07-25T17:42:15 EEST" duration-ms="1635" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:UI.tests.LogInTest@79316f3a]" started-at="2023-07-26T19:16:26 EEST" name="setUp" finished-at="2023-07-26T19:16:28 EEST" duration-ms="2167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginWithIncorrectPassword()[pri:0, instance:UI.tests.LogInTest@15dc339f]" started-at="2023-07-25T17:42:15 EEST" name="loginWithIncorrectPassword" finished-at="2023-07-25T17:42:16 EEST" duration-ms="559" status="PASS">
+        <test-method signature="loginWithIncorrectPassword()[pri:0, instance:UI.tests.LogInTest@79316f3a]" started-at="2023-07-26T19:16:28 EEST" name="loginWithIncorrectPassword" finished-at="2023-07-26T19:16:29 EEST" duration-ms="801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithIncorrectPassword -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:UI.tests.LogInTest@15dc339f]" started-at="2023-07-25T17:42:16 EEST" name="quit" finished-at="2023-07-25T17:42:16 EEST" duration-ms="277" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:UI.tests.LogInTest@79316f3a]" started-at="2023-07-26T19:16:29 EEST" name="quit" finished-at="2023-07-26T19:16:29 EEST" duration-ms="430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:UI.tests.LogInTest@15dc339f]" started-at="2023-07-25T17:42:16 EEST" name="setUp" finished-at="2023-07-25T17:42:18 EEST" duration-ms="1926" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:UI.tests.LogInTest@79316f3a]" started-at="2023-07-26T19:16:29 EEST" name="setUp" finished-at="2023-07-26T19:16:32 EEST" duration-ms="2445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginWithIncorrectUsername()[pri:0, instance:UI.tests.LogInTest@15dc339f]" started-at="2023-07-25T17:42:18 EEST" name="loginWithIncorrectUsername" finished-at="2023-07-25T17:42:19 EEST" duration-ms="503" status="PASS">
+        <test-method signature="loginWithIncorrectUsername()[pri:0, instance:UI.tests.LogInTest@79316f3a]" started-at="2023-07-26T19:16:32 EEST" name="loginWithIncorrectUsername" finished-at="2023-07-26T19:16:33 EEST" duration-ms="923" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithIncorrectUsername -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:UI.tests.LogInTest@15dc339f]" started-at="2023-07-25T17:42:19 EEST" name="quit" finished-at="2023-07-25T17:42:19 EEST" duration-ms="305" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:UI.tests.LogInTest@79316f3a]" started-at="2023-07-26T19:16:33 EEST" name="quit" finished-at="2023-07-26T19:16:33 EEST" duration-ms="450" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- UI.tests.LogInTest -->
       <class name="API.tests.ProjectTest">
-        <test-method is-config="true" signature="createUser()[pri:0, instance:API.tests.ProjectTest@4f3e7344]" started-at="2023-07-25T17:41:39 EEST" name="createUser" finished-at="2023-07-25T17:41:39 EEST" duration-ms="203" status="PASS">
+        <test-method is-config="true" signature="createUser()[pri:0, instance:API.tests.ProjectTest@249e0271]" started-at="2023-07-26T19:15:46 EEST" name="createUser" finished-at="2023-07-26T19:15:47 EEST" duration-ms="266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method signature="createProjectValid()[pri:0, instance:API.tests.ProjectTest@4f3e7344]" started-at="2023-07-25T17:41:39 EEST" name="createProjectValid" finished-at="2023-07-25T17:41:40 EEST" duration-ms="381" status="PASS">
+        <test-method signature="createProjectValid()[pri:0, instance:API.tests.ProjectTest@249e0271]" started-at="2023-07-26T19:15:47 EEST" name="createProjectValid" finished-at="2023-07-26T19:15:47 EEST" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createProjectValid -->
-        <test-method is-config="true" signature="deleteUser()[pri:0, instance:API.tests.ProjectTest@4f3e7344]" started-at="2023-07-25T17:41:40 EEST" name="deleteUser" finished-at="2023-07-25T17:41:40 EEST" duration-ms="137" status="PASS">
+        <test-method is-config="true" signature="deleteUser()[pri:0, instance:API.tests.ProjectTest@249e0271]" started-at="2023-07-26T19:15:47 EEST" name="deleteUser" finished-at="2023-07-26T19:15:47 EEST" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUser -->
-        <test-method is-config="true" signature="createUser()[pri:0, instance:API.tests.ProjectTest@4f3e7344]" started-at="2023-07-25T17:41:40 EEST" name="createUser" finished-at="2023-07-25T17:41:40 EEST" duration-ms="217" status="PASS">
+        <test-method is-config="true" signature="createUser()[pri:0, instance:API.tests.ProjectTest@249e0271]" started-at="2023-07-26T19:15:47 EEST" name="createUser" finished-at="2023-07-26T19:15:47 EEST" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method signature="deleteProjectValid()[pri:0, instance:API.tests.ProjectTest@4f3e7344]" started-at="2023-07-25T17:41:40 EEST" name="deleteProjectValid" finished-at="2023-07-25T17:41:40 EEST" duration-ms="484" status="PASS">
+        <test-method signature="deleteProjectValid()[pri:0, instance:API.tests.ProjectTest@249e0271]" started-at="2023-07-26T19:15:47 EEST" name="deleteProjectValid" finished-at="2023-07-26T19:15:48 EEST" duration-ms="296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteProjectValid -->
-        <test-method is-config="true" signature="deleteUser()[pri:0, instance:API.tests.ProjectTest@4f3e7344]" started-at="2023-07-25T17:41:40 EEST" name="deleteUser" finished-at="2023-07-25T17:41:41 EEST" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="deleteUser()[pri:0, instance:API.tests.ProjectTest@249e0271]" started-at="2023-07-26T19:15:48 EEST" name="deleteUser" finished-at="2023-07-26T19:15:48 EEST" duration-ms="111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUser -->
       </class> <!-- API.tests.ProjectTest -->
       <class name="API.tests.CreateUserTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:API.tests.CreateUserTest@5eb2172]" started-at="2023-07-25T17:41:34 EEST" name="setUp" finished-at="2023-07-25T17:41:35 EEST" duration-ms="914" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:API.tests.CreateUserTest@165e389b]" started-at="2023-07-26T19:15:42 EEST" name="setUp" finished-at="2023-07-26T19:15:42 EEST" duration-ms="858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createUserValid()[pri:0, instance:API.tests.CreateUserTest@5eb2172]" started-at="2023-07-25T17:41:35 EEST" name="createUserValid" finished-at="2023-07-25T17:41:38 EEST" duration-ms="3513" status="PASS">
+        <test-method signature="createUserValid()[pri:0, instance:API.tests.CreateUserTest@165e389b]" started-at="2023-07-26T19:15:43 EEST" name="createUserValid" finished-at="2023-07-26T19:15:46 EEST" duration-ms="3278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserValid -->
-        <test-method is-config="true" signature="deleteUser()[pri:0, instance:API.tests.CreateUserTest@5eb2172]" started-at="2023-07-25T17:41:38 EEST" name="deleteUser" finished-at="2023-07-25T17:41:38 EEST" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="deleteUser()[pri:0, instance:API.tests.CreateUserTest@165e389b]" started-at="2023-07-26T19:15:46 EEST" name="deleteUser" finished-at="2023-07-26T19:15:46 EEST" duration-ms="216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUser -->
       </class> <!-- API.tests.CreateUserTest -->
       <class name="UI.tests.ProjectTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:UI.tests.ProjectTest@66420549]" started-at="2023-07-25T17:42:05 EEST" name="setUp" finished-at="2023-07-25T17:42:09 EEST" duration-ms="4137" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:UI.tests.ProjectTest@4743a322]" started-at="2023-07-26T19:16:15 EEST" name="setUp" finished-at="2023-07-26T19:16:18 EEST" duration-ms="2408" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createProjectUI()[pri:0, instance:UI.tests.ProjectTest@66420549]" started-at="2023-07-25T17:42:09 EEST" name="createProjectUI" finished-at="2023-07-25T17:42:11 EEST" duration-ms="2153" status="PASS">
+        <test-method signature="createProjectUI()[pri:0, instance:UI.tests.ProjectTest@4743a322]" started-at="2023-07-26T19:16:18 EEST" name="createProjectUI" finished-at="2023-07-26T19:16:20 EEST" duration-ms="2795" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createProjectUI -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:UI.tests.ProjectTest@66420549]" started-at="2023-07-25T17:42:11 EEST" name="quit" finished-at="2023-07-25T17:42:11 EEST" duration-ms="287" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:UI.tests.ProjectTest@4743a322]" started-at="2023-07-26T19:16:21 EEST" name="quit" finished-at="2023-07-26T19:16:22 EEST" duration-ms="1061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- UI.tests.ProjectTest -->
       <class name="API.tests.TaskTest">
-        <test-method is-config="true" signature="createUser()[pri:0, instance:API.tests.TaskTest@7808f638]" started-at="2023-07-25T17:41:41 EEST" name="createUser" finished-at="2023-07-25T17:41:41 EEST" duration-ms="250" status="PASS">
+        <test-method is-config="true" signature="createUser()[pri:0, instance:API.tests.TaskTest@4893b344]" started-at="2023-07-26T19:15:48 EEST" name="createUser" finished-at="2023-07-26T19:15:48 EEST" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method signature="createTaskValid()[pri:0, instance:API.tests.TaskTest@7808f638]" started-at="2023-07-25T17:41:41 EEST" name="createTaskValid" finished-at="2023-07-25T17:41:42 EEST" duration-ms="668" status="PASS">
+        <test-method signature="createTaskValid()[pri:0, instance:API.tests.TaskTest@4893b344]" started-at="2023-07-26T19:15:48 EEST" name="createTaskValid" finished-at="2023-07-26T19:15:48 EEST" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTaskValid -->
-        <test-method is-config="true" signature="deleteUser()[pri:0, instance:API.tests.TaskTest@7808f638]" started-at="2023-07-25T17:41:42 EEST" name="deleteUser" finished-at="2023-07-25T17:41:42 EEST" duration-ms="113" status="PASS">
+        <test-method is-config="true" signature="deleteUser()[pri:0, instance:API.tests.TaskTest@4893b344]" started-at="2023-07-26T19:15:48 EEST" name="deleteUser" finished-at="2023-07-26T19:15:49 EEST" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUser -->
-        <test-method is-config="true" signature="createUser()[pri:0, instance:API.tests.TaskTest@7808f638]" started-at="2023-07-25T17:41:42 EEST" name="createUser" finished-at="2023-07-25T17:41:42 EEST" duration-ms="236" status="PASS">
+        <test-method is-config="true" signature="createUser()[pri:0, instance:API.tests.TaskTest@4893b344]" started-at="2023-07-26T19:15:49 EEST" name="createUser" finished-at="2023-07-26T19:15:49 EEST" duration-ms="189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method signature="deleteTaskValid()[pri:0, instance:API.tests.TaskTest@7808f638]" started-at="2023-07-25T17:41:42 EEST" name="deleteTaskValid" finished-at="2023-07-25T17:41:42 EEST" duration-ms="434" status="PASS">
+        <test-method signature="deleteTaskValid()[pri:0, instance:API.tests.TaskTest@4893b344]" started-at="2023-07-26T19:15:49 EEST" name="deleteTaskValid" finished-at="2023-07-26T19:15:49 EEST" duration-ms="401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteTaskValid -->
-        <test-method is-config="true" signature="deleteUser()[pri:0, instance:API.tests.TaskTest@7808f638]" started-at="2023-07-25T17:41:42 EEST" name="deleteUser" finished-at="2023-07-25T17:41:42 EEST" duration-ms="159" status="PASS">
+        <test-method is-config="true" signature="deleteUser()[pri:0, instance:API.tests.TaskTest@4893b344]" started-at="2023-07-26T19:15:49 EEST" name="deleteUser" finished-at="2023-07-26T19:15:49 EEST" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUser -->

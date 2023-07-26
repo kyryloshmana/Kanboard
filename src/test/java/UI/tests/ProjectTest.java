@@ -14,7 +14,7 @@ public class ProjectTest extends BaseUITest {
     public static final String PROJECT_NAME = "ProjectNameUI";
     public static int IDENTIFIER_NAME = ProjectPage.uniqueId();
 
-    @Test
+    @Test()
     @Description("Create project with correct credentials ")
     public void createProjectUI(){
         new LogInPage()

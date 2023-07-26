@@ -8,7 +8,6 @@
               <class name = "COMBINED.TaskTest"/>
               <class name = "UI.tests.ProjectTest"/>
               <class name = "UI.tests.LogInTest"/>
-
-       </classes>
+      </classes>
    </test>
  </suite>

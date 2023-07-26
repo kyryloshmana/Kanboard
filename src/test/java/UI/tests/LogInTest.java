@@ -13,7 +13,7 @@ import static DATA.UsersData.USER;
 
 public class LogInTest extends BaseUITest {
 
-    @Test
+    @Test()
     @Description("Login with correct Username and Password")
     public void loginWithCorrectCredentialAdmin(){
         new LogInPage().
@@ -27,7 +27,7 @@ public class LogInTest extends BaseUITest {
         softAssert.assertAll();
         }
 
-        @Test
+        @Test ()
         @Description("Login with correct Username and incorrect Password")
         public void loginWithIncorrectPassword(){
            new LogInPage()
