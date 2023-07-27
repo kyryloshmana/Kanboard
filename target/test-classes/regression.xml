@@ -1,0 +1,13 @@
+<suite name = "Regression test">
+    <test name = "Regression">
+        <classes>
+           <class name = "API.tests.CreateUserTest"/>
+              <class name = "API.tests.DeleteUserTest"/>
+              <class name = "API.tests.ProjectTest"/>
+              <class name = "API.tests.TaskTest"/>
+              <class name = "COMBINED.TaskTest"/>
+              <class name = "UI.tests.ProjectTest"/>
+              <class name = "UI.tests.LogInTest"/>
+      </classes>
+   </test>
+ </suite>

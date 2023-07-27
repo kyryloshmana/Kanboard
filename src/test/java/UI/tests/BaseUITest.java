@@ -1,0 +1,49 @@
+package UI.tests;
+
+import API.steps.ApiHelper;
+import API.steps.ApiSteps;
+import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.Selenide;
+import com.codeborne.selenide.WebDriverRunner;
+import io.qameta.allure.Allure;
+import io.qameta.allure.Description;
+import io.restassured.RestAssured;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+
+import static com.codeborne.selenide.Selenide.open;
+
+public class BaseUITest extends ApiSteps {
+
+    @BeforeMethod()
+    @Description("Create user and Open Log In page")
+    public void setUp(){
+
+        RestAssured.baseURI = "http://localhost:81/jsonrpc.php";
+        Allure.addAttachment("API URL", "text/plain","http://localhost:81/jsonrpc.php" );
+        createUser();
+        String browser = System.getProperty("browser", "chrome");
+        if("chrome".equals(browser)){
+            Allure.addAttachment("The browser in use", "text/plain", "chrome");
+            Configuration.browser = "chrome";
+        }else if("firefox".equals(browser)){
+            Allure.addAttachment("The browser in use", "text/plain", "firefox");
+            Configuration.browser = "firefox";
+        }else if ("chromeHeadless".equals(browser)) {
+            Allure.addAttachment("The browser in use", "text/plain", "chromeHeadless");
+            Configuration.headless = true;
+            Configuration.browser = "chrome";
+        }else{
+            throw new IllegalArgumentException("Невідомий браузер" + browser);
+        }
+        Selenide.open("http://localhost:81/login");
+//        WebDriverRunner.getWebDriver().manage().window().maximize();
+    }
+
+    @AfterMethod()
+    @Description("Close window and Delete created user")
+    public void quit(){
+        Selenide.closeWindow();
+        deleteUser();
+    }
+}

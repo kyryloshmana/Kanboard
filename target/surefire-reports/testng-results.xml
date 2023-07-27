@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-26T22:41:13 EEST" name="Regression test" finished-at="2023-07-26T22:41:20 EEST" duration-ms="7642">
+    <groups>
+      <group name="API">
+        <method signature="CreateUserTest.createUserValid()[pri:0, instance:API.tests.CreateUserTest@14d8444b]" name="createUserValid" class="API.tests.CreateUserTest"/>
+        <method signature="DeleteUserTest.deleteUserTest()[pri:0, instance:API.tests.DeleteUserTest@26d96e5]" name="deleteUserTest" class="API.tests.DeleteUserTest"/>
+        <method signature="ProjectTest.createProjectValid()[pri:0, instance:API.tests.ProjectTest@336880df]" name="createProjectValid" class="API.tests.ProjectTest"/>
+        <method signature="ProjectTest.deleteProjectValid()[pri:0, instance:API.tests.ProjectTest@336880df]" name="deleteProjectValid" class="API.tests.ProjectTest"/>
+        <method signature="TaskTest.createTaskValid()[pri:0, instance:API.tests.TaskTest@1846579f]" name="createTaskValid" class="API.tests.TaskTest"/>
+        <method signature="TaskTest.deleteTaskValid()[pri:0, instance:API.tests.TaskTest@1846579f]" name="deleteTaskValid" class="API.tests.TaskTest"/>
+      </group> <!-- API -->
+    </groups>
+    <test started-at="2023-07-26T22:41:13 EEST" name="Regression" finished-at="2023-07-26T22:41:20 EEST" duration-ms="7642">
+      <class name="API.tests.DeleteUserTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:API.tests.DeleteUserTest@26d96e5]" started-at="2023-07-26T22:41:17 EEST" name="setUp" finished-at="2023-07-26T22:41:17 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteUserTest()[pri:0, instance:API.tests.DeleteUserTest@26d96e5]" started-at="2023-07-26T22:41:17 EEST" name="deleteUserTest" finished-at="2023-07-26T22:41:18 EEST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+      </class> <!-- API.tests.DeleteUserTest -->
+      <class name="API.tests.ProjectTest">
+        <test-method is-config="true" signature="createUser()[pri:0, instance:API.tests.ProjectTest@336880df]" started-at="2023-07-26T22:41:18 EEST" name="createUser" finished-at="2023-07-26T22:41:18 EEST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createProjectValid()[pri:0, instance:API.tests.ProjectTest@336880df]" started-at="2023-07-26T22:41:18 EEST" name="createProjectValid" finished-at="2023-07-26T22:41:18 EEST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProjectValid -->
+        <test-method is-config="true" signature="deleteUser()[pri:0, instance:API.tests.ProjectTest@336880df]" started-at="2023-07-26T22:41:18 EEST" name="deleteUser" finished-at="2023-07-26T22:41:18 EEST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method is-config="true" signature="createUser()[pri:0, instance:API.tests.ProjectTest@336880df]" started-at="2023-07-26T22:41:18 EEST" name="createUser" finished-at="2023-07-26T22:41:19 EEST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="deleteProjectValid()[pri:0, instance:API.tests.ProjectTest@336880df]" started-at="2023-07-26T22:41:19 EEST" name="deleteProjectValid" finished-at="2023-07-26T22:41:19 EEST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProjectValid -->
+        <test-method is-config="true" signature="deleteUser()[pri:0, instance:API.tests.ProjectTest@336880df]" started-at="2023-07-26T22:41:19 EEST" name="deleteUser" finished-at="2023-07-26T22:41:19 EEST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- API.tests.ProjectTest -->
+      <class name="API.tests.CreateUserTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:API.tests.CreateUserTest@14d8444b]" started-at="2023-07-26T22:41:13 EEST" name="setUp" finished-at="2023-07-26T22:41:14 EEST" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createUserValid()[pri:0, instance:API.tests.CreateUserTest@14d8444b]" started-at="2023-07-26T22:41:14 EEST" name="createUserValid" finished-at="2023-07-26T22:41:17 EEST" duration-ms="3245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserValid -->
+        <test-method is-config="true" signature="deleteUser()[pri:0, instance:API.tests.CreateUserTest@14d8444b]" started-at="2023-07-26T22:41:17 EEST" name="deleteUser" finished-at="2023-07-26T22:41:17 EEST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- API.tests.CreateUserTest -->
+      <class name="API.tests.TaskTest">
+        <test-method is-config="true" signature="createUser()[pri:0, instance:API.tests.TaskTest@1846579f]" started-at="2023-07-26T22:41:19 EEST" name="createUser" finished-at="2023-07-26T22:41:19 EEST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createTaskValid()[pri:0, instance:API.tests.TaskTest@1846579f]" started-at="2023-07-26T22:41:19 EEST" name="createTaskValid" finished-at="2023-07-26T22:41:20 EEST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTaskValid -->
+        <test-method is-config="true" signature="deleteUser()[pri:0, instance:API.tests.TaskTest@1846579f]" started-at="2023-07-26T22:41:20 EEST" name="deleteUser" finished-at="2023-07-26T22:41:20 EEST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method is-config="true" signature="createUser()[pri:0, instance:API.tests.TaskTest@1846579f]" started-at="2023-07-26T22:41:20 EEST" name="createUser" finished-at="2023-07-26T22:41:20 EEST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="deleteTaskValid()[pri:0, instance:API.tests.TaskTest@1846579f]" started-at="2023-07-26T22:41:20 EEST" name="deleteTaskValid" finished-at="2023-07-26T22:41:20 EEST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTaskValid -->
+        <test-method is-config="true" signature="deleteUser()[pri:0, instance:API.tests.TaskTest@1846579f]" started-at="2023-07-26T22:41:20 EEST" name="deleteUser" finished-at="2023-07-26T22:41:20 EEST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- API.tests.TaskTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Regression test -->
+</testng-results>
