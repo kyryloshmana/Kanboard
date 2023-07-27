@@ -18,15 +18,26 @@ public class BaseUITest extends ApiSteps {
     @BeforeMethod()
     @Description("Create user and Open Log In page")
     public void setUp(){
+
         RestAssured.baseURI = "http://localhost:81/jsonrpc.php";
         Allure.addAttachment("API URL", "text/plain","http://localhost:81/jsonrpc.php" );
         createUser();
-        Allure.addAttachment("The browser in use", "text/plain", "chrome");
-        Configuration.browser = "chrome";
-        Allure.addAttachment("", "text/plain", "http://localhost:81/login");
+        String browser = System.getProperty("browser", "chrome");
+        if("chrome".equals(browser)){
+            Allure.addAttachment("The browser in use", "text/plain", "chrome");
+            Configuration.browser = "chrome";
+        }else if("firefox".equals(browser)){
+            Allure.addAttachment("The browser in use", "text/plain", "firefox");
+            Configuration.browser = "firefox";
+        }else if ("chromeHeadless".equals(browser)) {
+            Allure.addAttachment("The browser in use", "text/plain", "chromeHeadless");
+            Configuration.headless = true;
+            Configuration.browser = "chrome";
+        }else{
+            throw new IllegalArgumentException("Невідомий браузер" + browser);
+        }
         Selenide.open("http://localhost:81/login");
-
-        //        WebDriverRunner.getWebDriver().manage().window().maximize();
+//        WebDriverRunner.getWebDriver().manage().window().maximize();
     }
 
     @AfterMethod()

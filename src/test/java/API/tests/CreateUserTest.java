@@ -12,7 +12,7 @@ import static DATA.UsersData.USER;
 
 public class CreateUserTest extends BaseTestForCreateDeleteUser {
 
-    @Test
+    @Test(groups = "API")
     @Description("Create a new valid user")
     public void createUserValid() {
         user_id = createUser();

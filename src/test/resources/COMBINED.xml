@@ -1,0 +1,7 @@
+<suite name = "Combined tests">
+    <test name = "Combined">
+        <classes>
+            <class name = "COMBINED.TaskTest"/>
+        </classes>
+    </test>
+</suite>

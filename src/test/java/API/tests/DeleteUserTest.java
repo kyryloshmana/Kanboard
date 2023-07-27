@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 
 public class DeleteUserTest extends BaseTestForCreateDeleteUser {
-    @Test
+    @Test(groups = "API")
     @Description("Delete created user")
     public void deleteUserTest() {
         createUser();

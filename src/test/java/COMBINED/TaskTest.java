@@ -13,7 +13,7 @@ import static DATA.UsersData.USER;
 
 public class TaskTest extends TaskBaseTestCombined {
 
-    @Test
+    @Test(groups = "COMBINED")
     @Description("Create task by UI with valid data")
     public void createTaskValidData(){
         new LogInPage().
@@ -28,7 +28,7 @@ public class TaskTest extends TaskBaseTestCombined {
         Assert.assertEquals(taskName,TASK_DATA.getTitle());
            }
 
-    @Test
+    @Test(groups = "COMBINED")
     @Description("Close task by UI")
     public void closeTaskValidData(){
         new LogInPage().
@@ -48,9 +48,9 @@ public class TaskTest extends TaskBaseTestCombined {
 
     }
 
-    @Test
+    @Test(groups = "COMBINED")
     @Description("Add comment to created task")
-    public void AddCommentToTaskValidData(){
+    public void addCommentToTaskValidData(){
         String text = "Text Comment";
         new LogInPage().
                 logIn(USER.getUsername(), USER.getPassword());

@@ -10,7 +10,7 @@ import org.testng.asserts.SoftAssert;
 import static DATA.ProjectData.PROJECT_DATA;
 
 public class ProjectTest extends BaseTest{
-    @Test
+    @Test(groups = "API")
     @Description("Create a new valid project")
     public void createProjectValid(){
         project_id = createProject();
@@ -22,7 +22,7 @@ public class ProjectTest extends BaseTest{
         softAssert.assertAll();
     }
 
-    @Test
+    @Test(groups = "API")
     @Description("Delete created project")
     public void deleteProjectValid(){
       project_id = createProject();

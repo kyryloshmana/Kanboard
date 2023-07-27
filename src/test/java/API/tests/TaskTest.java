@@ -12,7 +12,7 @@ import static DATA.TaskData.TASK_DATA;
 
 public class TaskTest extends BaseTest{
 
-    @Test
+    @Test(groups = "API")
     @Description("Create a new valid task")
     public void createTaskValid(){
         createProject();
@@ -29,7 +29,7 @@ public class TaskTest extends BaseTest{
         softAssert.assertAll();
         }
 
-    @Test
+    @Test(groups = "API")
     @Description("Delete created task")
     public void deleteTaskValid(){
         createProject();
